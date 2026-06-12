@@ -1,0 +1,145 @@
+body{
+    color:purple;
+    background-color:black;
+    font-family:'Times New Roman', Times, serif;
+}
+/* p{
+    font-style: italic;
+} */
+#p1{
+    font-style: italic;
+}
+#p2{
+    font-style: normal;
+}
+
+/* mobile device */
+/* img{
+    height:auto;
+    width:100%;
+    
+}
+
+
+
+@media(min-width: 1024px){
+    img{
+        height: 500px;
+        width: 500px;
+    }
+
+} */
+
+/* desktop device */
+
+img{
+    height:500px;
+    width:500px;
+    
+}
+
+
+
+@media(max-width: 600px){
+    img{
+        height: auto;
+        width: 100%;
+    }
+
+}
+/* img{
+    height:500px;
+    width:500px;
+    border-radius:100px;
+} */
+/* video{
+    height:500px;
+} */
+video{
+    width:100%;
+}
+ol{
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: lower-roman; */
+    list-style-type: upper-roman;
+}
+ul{
+    /* list-style-type: circle; */
+     /* list-style-type: square; */
+     list-style-type: disc;
+} 
+/* table{
+    border:1px solid white;
+} */
+/* table,th,td{
+    border:1px solid white;
+} */
+
+table,th,td{
+    border:1px solid white;
+    border-collapse: collapse;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.pclass{
+    font-size: xx-large;
+}
+/* nav{
+    display:flex; */
+    /* flex-direction:column; */
+     /* flex-direction:row;
+     gap:50px;
+} */
+
+/* mobile */
+/* nav{
+    display:flex; 
+    flex-direction:column;  */
+    /* flex-direction:row;  */
+    /* gap:50px;
+} */
+
+/* desktop */
+nav{
+    display:flex; 
+    /* flex-direction:column;  */
+    flex-direction:row; 
+    gap:50px;
+}
+
+/* desktop */
+
+@media(min-width:1024px){
+    nav{
+        display:flex;
+        flex-direction: row;
+        gap:50px;
+    }
+}
+.grid{
+    display: grid;
+    /* grid-template-columns: 33% 33% 34%; */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* #one{
+    grid-row: 1/2;
+}
+#two{
+    grid-row: 1/2;
+}
+#three{
+    grid-row: 1/2;
+}
+#four{
+    grid-row: 2/3;
+}
+#five{
+    grid-row: 2/3;
+}
+#six{
+    grid-row: 2/3;
+} */
