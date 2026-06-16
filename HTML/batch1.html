@@ -56,7 +56,9 @@
         <form>
             
             <label>Name:</label>
-            <input type="text"><br>
+            <!-- <input type="text"><br> -->
+            <input onchange="example()" id="input" type="text"><br>
+            <p id="inputField"></p><br>
             Email:
             <input type="email"><br>
             Gender:
@@ -72,7 +74,8 @@
                 <option>Birthday</option>
                 <option>Other</option>
             </select><br>
-            <button>submit</button>
+            <!-- <button onclick="example()">submit</button> -->
+             <button onclick="alert('clicked')">Submit</button>
             
         </form>
         <nav>
@@ -101,4 +104,13 @@
 
 
     </body>
+    <!-- <script>
+        console.log("Hi")
+    </script> -->
+
+    <script src="batch1.js">
+        
+    </script>
+    
+
 </html>

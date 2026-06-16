@@ -1,0 +1,118 @@
+body{
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Navbar - Mobile First */
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Desktop Navbar */
+
+@media(min-width:768px){
+
+    nav{
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+
+h1{
+    margin: 20px 0;
+    color: #333;
+}
+
+
+
+img{
+    width: 300px;
+    max-width: 100%;
+    border-radius: 50px;   /* Even Roll Number */
+}
+
+
+
+video{
+    width: 50vw;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+
+table{
+    margin: 30px auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th{
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+}
+
+td{
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+/* Button */
+
+button{
+    background-color: blue;
+    color: rgb(114, 14, 14);
+    border: none;
+    padding: 12px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(151, 44, 128);
+    
+}
+
+/* Grid - Desktop First */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box{
+    background-color: #578023;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Mobile Grid */
+
+@media(max-width:768px){
+
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    video{
+        width: 90%;
+    }
+}

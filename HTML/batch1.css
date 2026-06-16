@@ -120,11 +120,18 @@ nav{
         gap:50px;
     }
 }
+
 .grid{
     display: grid;
     /* grid-template-columns: 33% 33% 34%; */
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
+
+/* .grid{ */
+    /* display: grid; */
+    /* grid-template-columns: 33% 33% 34%; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+/* } */
 /* #one{
     grid-row: 1/2;
 }
